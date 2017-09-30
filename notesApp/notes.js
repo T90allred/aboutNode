@@ -12,6 +12,4 @@ module.exports = {
         console.log('added note');
         return 'New note';
     },
-    
-    add: (a, b) => a + b,
 };
