@@ -3,21 +3,21 @@ console.log('Starting app.js');
 //NODE MODULE AND 3RD PARTY STUFF
 const fs = require('fs');
 const _ = require('lodash');
+const yargs = require('yargs');
 
 //MY CUSTOME MODULES
 const notes = require('./notes');
-
-let command = process.argv[2];
-console.log(command);
+const argv = yargs.argv;
+const command = argv._[0];
 
 if (command === 'add') {
-    console.log('Adding a new note');
+    notes.addNote(argv.title, argv.body);
 } else if(command === 'list') {
-    console.log('Listing all notes');
-} else if(command === 'remove') {
-    console.log('Removing a note');
+    notes.getAll();
 } else if(command === 'read') {
-    console.log('Reading a note');
+    notes.getNote(argv.title);
+} else if(command === 'remove') {
+    notes.removeNote(argv.title);
 } else {
     console.log('Command not recognized');
 }

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/T90allred/aboutNode#readme",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "yargs": "^4.7.1"
   }
 }
