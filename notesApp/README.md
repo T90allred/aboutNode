@@ -9,11 +9,11 @@ AVAILABLE FUNCTIONS:
 
 <b>add()</b> -> This function uses yargs to require a title and body properties as arguments. It will take your new NOTE and add it to the json file where the data is being persisted for now.
 
-read() -> This function requires a title to be passed in matching that of the one you wish to read. It then writes that note to the console
+<b>read()</b> -> This function requires a title to be passed in matching that of the one you wish to read. It then writes that note to the console
 
-remove() -> The remove function also requires a title to be passed in matching that of the note you wish to remove. If the note was found and removed it writes "Note removed" if the note was not found it writes "Note not found"
+<b>remove()</b> -> The remove function also requires a title to be passed in matching that of the note you wish to remove. If the note was found and removed it writes "Note removed" if the note was not found it writes "Note not found"
 
-list() -> List takes all notes in the json file and writes them to the console
+<b>list()</b> -> List takes all notes in the json file and writes them to the console
 
 MISC:
 
