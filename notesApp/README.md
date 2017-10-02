@@ -7,7 +7,7 @@ This was my first project built in NodeJS. Simply put, it is a note keeping cons
   
 AVAILABLE FUNCTIONS:
 
-add() -> This function uses yargs to require a title and body properties as arguments. It will take your new NOTE and add it to the json file where the data is being persisted for now.
+<b>add()</b> -> This function uses yargs to require a title and body properties as arguments. It will take your new NOTE and add it to the json file where the data is being persisted for now.
 
 read() -> This function requires a title to be passed in matching that of the one you wish to read. It then writes that note to the console
 
