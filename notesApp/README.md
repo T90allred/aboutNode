@@ -1,5 +1,5 @@
 # aboutNode
-This was my first project built in NodeJS. Simply put, it is a note keeping console application. Methods include...
+This is a project built in NodeJS. Simply put, it is a note keeping console application. Methods include...
   add()
   read()
   remove()
